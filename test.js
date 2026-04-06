@@ -1,8 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-let count;
-count = function (a, b) {
-    return a + b;
-};
-console.log(count(1, 2));
+let arr1;
+let arr2;
+arr1 = [1, 2];
+arr2 = ['aaa', 'bbb'];
+console.log(arr1);
+console.log(arr2);
 //# sourceMappingURL=test.js.map
