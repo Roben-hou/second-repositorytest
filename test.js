@@ -1,25 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Direction;
-(function (Direction) {
-    Direction[Direction["up"] = 0] = "up";
-    Direction[Direction["down"] = 1] = "down";
-    Direction[Direction["left"] = 2] = "left";
-    Direction[Direction["right"] = 3] = "right";
-})(Direction || (Direction = {}));
-function walk(data) {
-    if (data === Direction.up) {
-        console.log("向上走");
-    }
-    else if (data === Direction.down) {
-        console.log("向下走");
-    }
-    else if (data === Direction.left) {
-        console.log("向左走");
-    }
-    else if (data === Direction.right) {
-        console.log("向右走");
-    }
-}
-walk(Direction.up);
+const f1 = () => {
+    return 11;
+}; //类型声明限制函数为void时，typescript不会严格要求返回值为空
 //# sourceMappingURL=test.js.map
